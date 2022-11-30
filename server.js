@@ -2,7 +2,7 @@ const express = require ('express');
 const app = express();
 const connectDB = require('./config/db')
 const cors = require('cors')
-app.use(cors({ credentials: true, origin:"http://localhost:3000"}))
+app.use(cors({ credentials: true, origin:"https://itransition-task6-mail-app.netlify.app"}))
 
 const PORT = process.env.PORT || 5002;
 
