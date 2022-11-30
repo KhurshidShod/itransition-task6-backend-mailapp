@@ -13,4 +13,4 @@ app.use("/api/messages", require("./routes/api/messages"))
 
 app.get('/', (request, response) => response.send("Hello, World!"))
 
-app.listen(5002, () => console.log(`Server started on port ${PORT}`))
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
